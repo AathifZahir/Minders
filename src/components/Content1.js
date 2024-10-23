@@ -21,7 +21,11 @@ export default function Content1() {
           href="/"
           className="bg-[#CDA5D5] text-base px-12 py-4 rounded-xl transition-all"
         >
-          <img src="/svgs/backIcon.svg" className="text-white inline mb-1" />
+          <img
+            src="/svgs/backIcon.svg"
+            alt="backicon"
+            className="text-white inline mb-1"
+          />
           <span className="text-base ml-2">Join us</span>
         </a>
       </div>

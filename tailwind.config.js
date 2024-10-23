@@ -8,6 +8,7 @@ module.exports = {
       },
       borderRadius: {
         custl: "6.5rem",
+        custl2: "4.5rem",
       },
     },
   },
