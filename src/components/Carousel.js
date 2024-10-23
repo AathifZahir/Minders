@@ -37,21 +37,26 @@ export function Carousel() {
   return (
     <div className="relative">
       <Swiper
-        spaceBetween={5}
-        slidesPerView={3}
+        spaceBetween={20}
+        slidesPerView="auto"
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        className="w-full"
       >
         {teamMembers.map((member) => (
-          <SwiperSlide key={member.name} className="relative">
-            <div className="overflow-hidden rounded-custl2 h-auto w-80">
+          <SwiperSlide
+            key={member.name}
+            className="relative p-0"
+            style={{ width: "auto" }}
+          >
+            <div className="overflow-hidden rounded-custl2 h-auto w-90 ">
               <img
                 src={member.img}
                 alt={member.name}
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute inset-0 flex flex-col h-auto w-80 items-center rounded-custl2 justify-center backdrop-blur-sm bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute inset-0 flex flex-col h-auto w-90 items-center rounded-custl2 justify-center backdrop-blur-md bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
               <div className="text-white text-2xl font-bold">{member.name}</div>
               <div className="text-white text-xl">{member.job}</div>
               <div className="my-5 text-white text-base px-4 text-center">

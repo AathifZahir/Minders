@@ -19,6 +19,7 @@ export default function Home() {
         <div className="bg-[#E8FE74]">
           <Section2 />
         </div>
+        <div></div>
       </div>
     </div>
   );
