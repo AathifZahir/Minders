@@ -4,6 +4,7 @@ import Title from "../components/Title";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
+import Section4 from "../components/Section4";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         </div>
         <div className="bg-black">
           <Section3 />
+        </div>
+        <div className="bg-black">
+          <Section4 />
         </div>
       </div>
     </div>
