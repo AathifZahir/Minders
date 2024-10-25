@@ -9,6 +9,12 @@ Minders is a modern, responsive web application built with React, showcasing a p
 - Gradient text and button effects
 - Swiper.js integration for smooth sliding experiences
 
+## Preview
+
+![Alt text](gitimg/1.png)
+![Alt text](gitimg/2.png)
+![Alt text](gitimg/3.png)
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
