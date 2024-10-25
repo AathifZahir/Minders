@@ -11,9 +11,11 @@ Minders is a modern, responsive web application built with React, showcasing a p
 
 ## Preview
 
-<img src="gitimg/1.png" alt="Image Description" width="300" style="border-radius: 50%; display: inline;"/>
-<img src="gitimg/2.png" alt="Image Description" width="300" style="border-radius: 50%; display: inline;"/>
-<img src="gitimg/3.png" alt="Image Description" width="300" style="border-radius: 50%; display: inline;"/>
+<div align="center">
+    <img src="gitimg/1.png" alt="Image Description" width="200" style="border-radius: 50%; margin: 10px; display: inline-block;"/>
+    <img src="gitimg/2.png" alt="Image Description" width="200" style="border-radius: 50%; margin: 10px; display: inline-block;"/>
+    <img src="gitimg/3.png" alt="Image Description" width="200" style="border-radius: 50%; margin: 10px; display: inline-block;"/>
+</div>
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
