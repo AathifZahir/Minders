@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="MIT License Badge"/>
 </p>
 
-<p>Minders is a modern, responsive web application built with React, showcasing a platform for creative artists and professionals. This frontend-only project demonstrates a sleek design and interactive user interface for a community-focused art and creativity platform.</p>
+<p>Minders is a modern web application built with React, showcasing a platform for creative artists and professionals. This frontend-only project demonstrates a sleek design and interactive user interface for a community-focused art and creativity platform.</p>
 
 <h2>✨ Features</h2>
 <ul>
